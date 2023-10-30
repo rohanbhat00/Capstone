@@ -2,7 +2,7 @@ import cv2
 import numpy as np
  
 # Load the image
-image = cv2.imread("Photos/mediumbolt.jpg")
+image = cv2.imread("Photos/smallbolt.jpg")
 cv2.imshow("original", image)
 # Convert the image to grayscale
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
